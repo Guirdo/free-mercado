@@ -1,0 +1,113 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    width: 85%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+main {
+    margin: 2rem auto;
+    width: 60%;
+}
+
+form {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+button {
+    background-color: #435769;
+    color: white;
+    width: 50%;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.form-grupo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.form-grupo input{
+    width: 50%;
+    font-size: 16px;
+}
+
+.form-grupo textarea{
+    width: 50%;
+    font-size: 16px;
+}
+
+.subtitulo-form {
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #435769;
+    margin-bottom: 25px;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.boton-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+#logo {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#radioSexos{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#aviso {
+    margin: auto;
+    width: 50%;
+}
+
+#aviso1 {
+    margin: auto;
+    width: 50%;
+}
+
+#mensaje {
+    text-align: center;
+    background-color: tomato;
+    padding: 3px;
+}
+
+#mensaje1 {
+    text-align: center;
+    background-color: tomato;
+    padding: 3px;
+}
+
+#preview {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+

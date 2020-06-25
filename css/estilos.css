@@ -1,0 +1,413 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 85%;
+    margin: auto;
+}
+
+header {
+    margin: 15px 0px;
+}
+
+nav {
+    margin: 10px 0px;
+}
+
+main{
+    margin: 15px;
+}
+
+table {
+    width: 100%;
+}
+
+thead td {
+    background-color: #435769;
+    color: white;
+    height: 1.5rem;
+}
+
+tbody td {
+    border: 1px solid black;
+}
+
+footer {
+    margin: 15px;
+}
+
+img {
+    margin: auto;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0rem auto;
+    width: 60%;
+    background: #f6f8f6;
+    border: 1px solid #c6c8c6;
+}
+
+.datos > div{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    width: 95%;
+}
+
+.datos label {
+    font-weight: bold;
+}
+
+.datos textarea {
+    width: 100%;
+}
+
+.cajaProducto {
+    border: 1px solid black;
+    width: 20%;
+    height: 40%;
+}
+
+.cajaProducto img{
+    width: auto;
+    max-width: 91%;
+    height: auto !important;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 4%;
+}
+
+.cajaProducto span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1ad322;
+    margin: 10px;
+}
+
+.cajaProducto p > a{
+    font-size: 16px;
+    color: gray;
+    margin: 10px;
+}
+
+.form-grupo {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+}
+
+.form-grupo input{
+    width: 40%;
+    font-size: 16px;
+}
+
+.btn-form {
+    background-color: #435769;
+    color: white;
+    width: 45%;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.btn-cancelar {
+    background-color: #f6f8f6;
+    color: black;
+    width: 45%;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.mensaje-error {
+    background-color: tomato;
+    color: aqua;
+}
+
+#cajaUsuario {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+
+#saludo {
+    font-size: 20px;
+}
+
+#nickname {
+    color: #1ad322;
+    font-weight: bold;
+}
+
+#logo {
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#logo-small {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px;
+}
+
+#principal > .contenedor {
+    width: 100%;
+}
+
+#imgCarrito {
+    margin: auto 15px;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #e6e8e6;
+    font-size: 14px;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+#navbar a:hover {
+    background-color: #c6c8c6;
+}
+
+#menu-lateral {
+    width: 15%;
+    height: 100%;
+    text-align: center;
+}
+
+#menu-lateral a {
+    background-color: #e6e8e6;
+    color: black;
+    display: block; 
+    padding: 20px;
+    text-decoration: none; 
+}
+
+#menu-lateral a:hover {
+    background-color: #c6c8c6;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+}
+
+#principal > .contenedor {
+    width: 100%;
+}
+
+#radioSexos{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#foto {
+    margin: auto 15px;
+    width: 70px;
+    height: 70px;
+}
+
+#preview {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#vistaProducto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#info-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    padding: 1%;
+    border: 1px solid #c6c8c6;
+}
+
+#info-producto > * {
+    margin: auto 0.2rem;
+}
+
+#img-producto-big {
+    width: 45%;
+    border: 1px solid #435769;
+}
+
+#nombre-pro {
+    font-size: 24px;
+    font-weight: bold;
+    color: #435769;
+}
+
+#precio-pro {
+    font-weight: bold;
+    font-size: 24px;
+    color: #1ad322;
+}
+
+#descripcion-pro{
+    font-size: 16px;
+    width: 55%;
+    margin: 1rem;
+    border: 1px solid #c6c8c6;
+}
+
+#chat {
+    width: 50%;
+    height: 40rem;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#mensajes {
+    width: 95%;
+    height: 80%;
+    margin: auto;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+
+#cuadro-envio-mensaje{
+    margin: auto;
+}
+
+#btn-enviar{
+    background-color: #435769;
+    color: white;
+    font-size: large;
+    border-radius: 2px;
+}
+
+.mensaje {
+    width: 90%;
+    border-radius: 10px;
+    margin: 0.4rem auto;
+    padding: 0.4rem;
+}
+
+.mensaje span {
+    font-weight: bold;
+}
+
+.msj-admin{
+    background-color: #779ECB;
+}
+
+.msj-cliente{
+    background-color: #BED7D1;
+}
+
+.msj-propio{
+    background-color: #FDFD98;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.productos > *{
+    margin: 10px;
+}
+
+.item-carrito{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #BED7D1;
+    border-bottom: 1px solid #BED7D1;
+    margin: 0.3rem 0;
+    width: 100%;
+}
+
+.item-carrito > *{
+    margin: auto;
+}
+
+.item-carrito > div{
+    width: 9rem;
+}
+
+.img-item-carrito{
+    width: 6rem;
+}
+
+#divTotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#divTotal > * {
+    margin: auto;
+}
+
+#btn-comprar{
+    background-color: #435769;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.compra {
+    border: 1px solid #BED7D1;
+    padding: 20px;
+    margin: 0.7rem 0;
+}
